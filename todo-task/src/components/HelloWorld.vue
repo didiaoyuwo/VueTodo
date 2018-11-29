@@ -75,7 +75,7 @@ export default {
     add (msg) {
       // alert(1)
       if (msg === '') {
-        alert('您好像什么都没输出哦...')
+        alert('亲，您好像什么都没输出哦...')
       } else {
         this.items.push({
           val: msg,
@@ -105,11 +105,22 @@ export default {
     selectAll (event) {
       // alert(1)
       // console.log(event)
-      // event.path[0].src = '../../static/allcolor.png'
+      event.path[0].src = '../../static/allcolor.png'
+      let isAllChecked = true
       for (let i = 0; i < this.items.length; i++) {
-        this.items[i].isCheck = true
+        if (this.items[i].isCheck === false) {
+          isAllChecked = false
+        }
       }
-      
+      if (isAllChecked) {
+        for (let j = 0; j < this.items.length; j++) {
+          this.items[j].isCheck = !this.items[j].isCheck
+        }
+      } else {
+        for (let j = 0; j < this.items.length; j++) {
+          this.items[j].isCheck = true
+        }
+      }
     },
     deleteData (index) {
       // console.log(1)
