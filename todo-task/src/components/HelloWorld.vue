@@ -3,7 +3,9 @@
     <header class="todo-header">
       <h1 class='todo-title'>todo</h1>
       <div class="todo-input">
-        <img src="../../static/all.png" alt="" class="icon-all" v-if='items.length > 0' @click='selectAll($event)'>
+        <img src="../../static/all.png" alt="" class="icon-all" v-if='items.length>0 && count>0' @click='selectAll()'>
+        <img src="../../static/allcolor.png" alt="" class="icon-all"
+        v-if='items.length>0 && count==0' @click='selectAll()'>
         <input type="text" v-model="msg" class="todo-msg" placeholder="请随便输入点什么..." v-focus @keyup.enter='add(msg)'>
       </div>
     </header>
@@ -105,11 +107,11 @@ export default {
     selectAll (event) {
       // alert(1)
       // console.log(event)
-      event.path[0].src = '../../static/allcolor.png'
       let isAllChecked = true
       for (let i = 0; i < this.items.length; i++) {
         if (this.items[i].isCheck === false) {
           isAllChecked = false
+          break
         }
       }
       if (isAllChecked) {
