@@ -170,6 +170,15 @@ export default {
       const active = list[1]
       active.classList.add('active')
     }
+  },
+  mounted () {
+    window.onbeforeunload = function () {
+      localStorage.setItem('store', JSON.stringify(this.items))
+    }
+  },
+  created () {
+    let store = localStorage.getItem('store')
+    console.log(store)
   }
 }
 </script>
