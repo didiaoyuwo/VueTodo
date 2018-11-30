@@ -172,12 +172,16 @@ export default {
     }
   },
   mounted () {
-    window.onbeforeunload = function () {
-      localStorage.setItem('store', JSON.stringify(this.items))
+    window.onbeforeunload = () => {
+      return localStorage.setItem('store', JSON.stringify(this.items))
+      // localStorage.clear()
     }
   },
   created () {
-    let store = localStorage.getItem('store')
+    let store = JSON.parse(localStorage.getItem('store'))
+    if (store) {
+      this.items = store
+    }
     console.log(store)
   }
 }
