@@ -50,7 +50,8 @@ npm run dev
     ![Image text](https://github.com/didiaoyuwo/Project-gif/blob/master/vueTodo/clear.gif?raw=true)
 
     # 目录
-
+    
+```
     │.babelrc            babel配置
     │.editorconfig       编辑器配置
     │.eslintignore       eslint忽略
@@ -84,4 +85,4 @@ npm run dev
     ├─test   
     │
     └─static              静态文件
-    
+```    
