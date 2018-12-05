@@ -51,16 +51,16 @@ npm run dev
 
     # 目录
 
-    │ .babelrc            babel配置
-    │ .editorconfig       编辑器配置
-    │ .eslintignore       eslint忽略
-    │ .eslintrc.js        eslintrc配置
-    │ .gitignore          git上传忽略
-    │ .postcssrc.js
-    │ index.html          打包模板
-    │ package.json
-    │ README.md
-    │ LICENSE
+    │.babelrc            babel配置
+    │.editorconfig       编辑器配置
+    │.eslintignore       eslint忽略
+    │.eslintrc.js        eslintrc配置
+    │.gitignore          git上传忽略
+    │.postcssrc.js
+    │index.html          打包模板
+    │package.json
+    │README.md
+    │LICENSE
     │
     ├─build
     │
