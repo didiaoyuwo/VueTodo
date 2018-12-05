@@ -12,24 +12,21 @@
 
 克隆远程库
 
-     ```
-     git clone https://github.com/didiaoyuwo/vueTodo.git
-     
-    ```
+```
+git clone https://github.com/didiaoyuwo/vueTodo.git
+```
 
-    进入项目目录vueTodo后，安装依赖
+进入项目目录vueTodo后，安装依赖
 
-    ```
-    npm install
-    
-    ```
+```
+npm install 
+ ```
 
-    安装依赖,启动服务
+安装依赖,启动服务
 
-    ```
-    npm run dev
-    
-    ```
+```
+npm run dev
+```
 
 打开浏览器，访问 [http://localhost:8080](http://localhost:8080)
 
