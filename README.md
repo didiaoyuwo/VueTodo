@@ -12,17 +12,24 @@
 
 克隆远程库
 
-     git clone <span class="hljs-string">https:</span><span class="hljs-comment">//github.com/didiaoyuwo/vueTodo.git</span>
-    `</pre>
+     ```
+     git clone https://github.com/didiaoyuwo/vueTodo.git
+     
+    ```
 
     进入项目目录vueTodo后，安装依赖
 
-    <pre>`npm <span class="hljs-keyword">install</span>
-    `</pre>
+    ```
+    npm install
+    
+    ```
 
     安装依赖,启动服务
 
-    <pre>`npm <span class="hljs-command">run</span> dev
+    ```
+    npm run dev
+    
+    ```
 
 打开浏览器，访问 [http://localhost:8080](http://localhost:8080)
 
