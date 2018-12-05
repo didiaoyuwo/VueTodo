@@ -1,30 +1,49 @@
-# todo-task
+# VueTodo
 
-> A Vue.js project
+> 仿照Vue官网上的Todo示例做的一个小demo
+> 
+> 官网VueTodo: [https://cn.vuejs.org/v2/examples/todomvc.html](https://cn.vuejs.org/v2/examples/todomvc.html)
 
-## Build Setup
+# Build Setup
 
-``` bash
-# install dependencies
-npm install
+运行环境
 
-# serve with hot reload at localhost:8080
-npm run dev
+*   node.js
 
-# build for production with minification
-npm run build
+克隆远程库
 
-# build for production and view the bundle analyzer report
-npm run build --report
+     git clone <span class="hljs-string">https:</span><span class="hljs-comment">//github.com/didiaoyuwo/vueTodo.git</span>
+    `</pre>
 
-# run unit tests
-npm run unit
+    进入项目目录vueTodo后，安装依赖
 
-# run e2e tests
-npm run e2e
+    <pre>`npm <span class="hljs-keyword">install</span>
+    `</pre>
 
-# run all tests
-npm test
-```
+    安装依赖,启动服务
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+    <pre>`npm <span class="hljs-command">run</span> dev
+
+打开浏览器，访问 [http://localhost:8080](http://localhost:8080)
+
+# 效果展示
+
+*   刚开始
+
+![Image text](https://github.com/didiaoyuwo/Project-gif/blob/master/vueTodo/start.png?raw=true)
+
+*   添加数据
+
+![Image text](https://github.com/didiaoyuwo/Project-gif/blob/master/vueTodo/add.gif?raw=true)
+
+*   删除数据
+![Image text](https://github.com/didiaoyuwo/Project-gif/blob/master/vueTodo/delete.gif?raw=true)
+
+*   全选
+![Image text](https://github.com/didiaoyuwo/Project-gif/blob/master/vueTodo/selectall.gif?raw=true)
+
+*   修改数据
+![Image text](https://github.com/didiaoyuwo/Project-gif/blob/master/vueTodo/edit.gif?raw=true)
+
+*   清空已完成数据
+![Image text](https://github.com/didiaoyuwo/Project-gif/blob/master/vueTodo/clear.gif?raw=true)
