@@ -17,7 +17,4 @@ export default {
 ul,li{
   list-style: none;
 }
-#app{
-  margin-top:66px;
-}
 </style>
