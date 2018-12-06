@@ -77,7 +77,7 @@ npm run dev
     │   ├─components         
     │   │  └─vueTodo.vue  主组件      
     │   ├─style         
-    │   │  └─vueTodo.scss 样式
+    │   │  └─VueTodo.scss 样式
     │   ├─lib
     │   │
     │   ├─router          路由
